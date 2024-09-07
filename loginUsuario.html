@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" /> 
+</head>
+<body>
+<form action="validacao.php" method="POST">
+    <div class="imgcontainer">
+        <img src="./assets/sicredi-logo.webp" alt="Usuário" class="user" width="260" height="200" margin-top="100">
+    </div>
+
+    <div class="container">
+        <label><b>Usuário</b></label>
+        <input type="text" placeholder="Inserir usuário" name="username" required>
+
+        <label><b>Senha</b></label>
+        <input type="password" placeholder="Inserir senha" name="password" required>
+
+        <button type="submit" name="submit">Entrar</button>
+        <p>Não tem uma conta? <a href="registro.php">Registre-se aqui</a></p> 
+    </div>
+</form>
+</body>
+</html>
